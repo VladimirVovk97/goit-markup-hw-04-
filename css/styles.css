@@ -19,7 +19,8 @@ html {
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #2f303a;
   --third-bg-color: #f5f4fa;
-  --border-cards-color: #eeeeee;
+  --border-cards-color: #e5e5e5;
+  --section-clients-color: #afb1b8;
 }
 body {
   background-color: var(--primary-bg-color);
@@ -484,7 +485,7 @@ p {
   align-items: center;
   width: 170px;
   height: 92px;
-  color: #afb1b8;
+  color: var(--section-clients-color);
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
@@ -526,18 +527,12 @@ footer {
   color: var(--accent-color);
 }
 .second-part-of-main-logo {
-  color: #fff;
+  color: var(--primary-white-color);
 }
 
 .address-color {
-  color: #fff;
+  color: var(--primary-white-color);
 }
-
-/*
-.footer-addresses-parts + .footer-addresses-parts {
-  margin-top: 8px;
-}
-*/
 
 .footer-addresses-parts {
   margin-bottom: 8px;
@@ -576,7 +571,7 @@ footer {
 }
 
 .subscribe-header {
-  color: #fff;
+  color: var(--primary-white-color);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -598,7 +593,7 @@ footer {
   background-color: #43444d;
   width: 44px;
   height: 44px;
-  color: white;
+  color: var(--primary-white-color);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -608,7 +603,7 @@ footer {
 .socialmedia-links-footer:hover {
   background-color: var(--accent-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  color: white;
+  color: var(--primary-white-color);
 }
 
 .socialmedia-icons-footer {
