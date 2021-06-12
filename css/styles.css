@@ -600,7 +600,8 @@ footer {
   align-items: center;
 }
 
-.socialmedia-links-footer:hover {
+.socialmedia-links-footer:hover,
+.socialmedia-links-footer:focus {
   background-color: var(--accent-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   color: var(--primary-white-color);
@@ -612,7 +613,8 @@ footer {
   fill: currentColor;
 }
 
-.socialmedia-icons-footer:hover {
+.socialmedia-icons-footer:hover,
+.socialmedia-icons-footer:focus {
   fill: currentColor;
 }
 
